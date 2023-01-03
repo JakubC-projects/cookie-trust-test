@@ -3,7 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import { onMounted } from 'vue';
 
-const frameOrigin = "http://sub.child.example.com"
+const frameOrigin = "http://child.example.com"
 
 let frame: HTMLIFrameElement | undefined;
 onMounted(() => {
