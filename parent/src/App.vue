@@ -2,7 +2,6 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import { onMounted } from 'vue';
-import HelloWorld from './components/HelloWorld.vue'
 
 const frameOrigin = "http://sub.child.example.com"
 
@@ -23,7 +22,6 @@ window.addEventListener("message", event => {
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
   <input v-model="inputVal"/>
   <button @click="sendMessage">send</button>
   <iframe :src="frameOrigin" id="frame"></iframe>
